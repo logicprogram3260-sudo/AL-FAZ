@@ -26,6 +26,11 @@ Version: 1.0.0
 .emaile{
   color: #000;
 }
+.swiper-slide{
+  margin-right: 10px;
+}
+
+
 .hero-section {
   background-image: url("assets/img/about/banner.5.png");
   background-size: cover;
