@@ -26,10 +26,6 @@ Version: 1.0.0
 .emaile{
   color: #000;
 }
-.swiper-slide{
-  margin-right: 10px;
-}
-
 
 .hero-section {
   background-image: url("assets/img/about/banner.5.png");
@@ -1062,6 +1058,7 @@ span {
 @media (max-width: 991px) {
   .brand-box-items {
     flex-wrap: wrap;
+    
   }
 }
 .brand-box-items .single-brand-items {
@@ -1073,15 +1070,21 @@ span {
 @media (max-width: 1199px) {
   .brand-box-items .single-brand-items {
     padding: 40px 15px;
+   
   }
 }
 .brand-box-items .single-brand-items:not(:last-child) {
   border-right: 1px solid var(--border);
+   
 }
 @media (max-width: 991px) {
   .brand-box-items .single-brand-items:not(:last-child) {
     border-right: none;
+    
   }
+}
+.swiper-slide{
+    margin: 30px;
 }
 
 .newsletter-input {
